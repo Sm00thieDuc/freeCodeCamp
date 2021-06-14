@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap');
+
+.title{
+  padding: 1rem 2.5rem;
+  width:100%;
+color: #FFFFFF;
+text-shadow: #474747 3px 5px 2px;
+background: #CEBD25;
+background: -moz-linear-gradient(left, #CEBD25 0%, #14C520 100%);
+background: -webkit-linear-gradient(left, #CEBD25 0%, #14C520 100%);
+background: linear-gradient(to right, #CEBD25 0%, #14C520 100%);
+-webkit-border-radius: 0px 40px 0px 40px;
+-moz-border-radius: 0px 40px 0px 40px;
+border-radius: 0px 40px 0px 40px;
+}  
+
+  body{
+  font-family: 'Baloo Tammudu 2', cursive;
+    line-height: 1.4;
+    background: #4DD0FF;
+    background: -moz-linear-gradient(left, #4DD0FF 0%, #CB4EED 51%, #FFF233 100%);
+    background: -webkit-linear-gradient(left, #4DD0FF 0%, #CB4EED 51%, #FFF233 100%);
+    background: linear-gradient(to right, #4DD0FF 0%, #CB4EED 51%, #FFF233 100%);
+    width: 500px;
+    margin:auto;
+}  
+form{
+  background: rgb(5,255,5,0.3);
+  padding:2.5rem 2.5rem;
+  border-radius:2rem;
+  width:400px;
+  margin:auto;
+}
+.submit-button{
+  width: 100%;
+  padding: 0.75rem;
+background: #FFFF4D;
+background: -moz-radial-gradient(center, #FFFF4D 0%, #FF87AF 100%);
+background: -webkit-radial-gradient(center, #FFFF4D 0%, #FF87AF 100%);
+background: radial-gradient(ellipse at center, #FFFF4D 0%, #FF87AF 100%);
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 25px;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 0px 1px rgba(35,206,63,0.79);
+}
+
+.input-headings{
+  margin: 0 auto 1.25rem auto;
+  padding: 2.25rem;
+}
+
+.form-inputs{
+  display:block;
+  width:90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  nackground-color:#fff;
+  border: 1px solid; 
+  border-radius: 0.25rem;
+}
