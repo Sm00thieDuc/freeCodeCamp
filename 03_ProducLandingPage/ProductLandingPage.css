@@ -61,8 +61,79 @@ a:hover{
   padding: 2.5em 2.5em;
 }
 
-#shop{
-  margin-left: 
+#background{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1; /*ensure div tag stays behind content; -999 might work too */
 }
 
-#
+#cakelandHistory{
+  margin-left: 0;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#shop{
+  margin-left: 13%;
+  margin-top: -25%;
+  display: flex;
+  justify-content: space-between;
+  width:75%;
+}
+
+#cakelandRoadmap{
+  margin-left: 27%;
+  margin-top: 45%;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+
+
+#historylayover{
+  background-color: #f2eded;
+  width: 100%;
+  opacity: 0.9;
+  z-index: -1; /*ensure div tag stays behind content; -999 might work too */
+}
+
+
+
+.submit{
+  width: 20%;
+  padding: 0.75rem;
+  border-radius: 3px;
+  cursor: pointer;
+  background: royalblue;
+  color: white;
+  display: flex;
+  margin: auto;
+}
+
+.email{
+  display: block;
+  width: 18.5%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  display: flex;
+  margin: auto;
+}
+
+.text{
+  display: block;
+  width: 18.5%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  display: flex;
+  margin: auto;
+}
