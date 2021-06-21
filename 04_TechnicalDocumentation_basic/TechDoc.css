@@ -1,0 +1,52 @@
+
+div.main-body{
+  display: grid;
+  grid-template-columns:minmax(200px,auto) 1fr;
+  grid-template-areas: "navbar mainContent";
+  grid-gap: 20px;  
+}
+
+nav#navbar{
+  grid-area: navbar;
+  position: fixed;
+}
+
+nav#navbar a{ /* man kann nav auch weglassen*/
+  display:block;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+main#main-doc{
+  grid-area:mainContent;
+}
+
+header{
+  font-size: 1.5em;
+  font: Arial;
+  font-weight: bold;
+}
+
+code{
+  background: #CCC;
+  display: block; /*Blockschrift*/
+  padding: 20px;
+}
+
+@media screen and (max-width: 750px){ 
+/*if device screen below 750px then we will do something (on the mobile device)*/
+  
+  div.main-body{
+    grid-template-columns: 1fr;  /*span body on the the whoole column*/
+    grid-template-areas: "navbar" "mainContent" 
+      /*MC will be placed underneath navbar*/  
+  }
+  
+  nav#navbar{
+    position: inherit;
+    /* native mobile responsive command*/
+  }
+}
